@@ -1,5 +1,7 @@
-﻿namespace TaskerS.MVVM.Models
+﻿using PropertyChanged;
+namespace TaskerS.MVVM.Models
 {
+    [AddINotifyPropertyChangedInterface]
     public class Category
     {
         public int Id { get; set; }

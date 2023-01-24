@@ -45,6 +45,12 @@
     </Style>
 
 
+    <Style TargetType="RadioButton">
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="TextColor" Value="DarkRed" />
+        <Setter Property="Shadow" Value="{StaticResource shadow}" />
+    </Style>
+
     <Style x:Key="Task" TargetType="Entry">
         <Setter Property="FontSize" Value="Large" />
         <Setter Property="HorizontalTextAlignment" Value="Center" />
